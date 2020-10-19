@@ -6,6 +6,7 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+
 /* Sections */
 
 .top-header {
@@ -49,6 +50,7 @@ body {
 
 #title {
   text-align: center;
+  padding: 3% 15% 3% 15%;
 }
 
 .big-heading {
@@ -62,6 +64,7 @@ body {
 .title-image {
   width: 60%;
   position: relative;
+  border-radius: 50%;
 }
 
 /* Resume */
@@ -89,6 +92,14 @@ i {
   padding-bottom: 2rem;
 }
 
+.accordion {
+  padding-top: 3%;
+}
+
+.btn-link {
+  color: #7799a6;
+  font-size: 1.5rem;
+}
 
 /* Contact */
 
