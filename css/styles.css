@@ -1,3 +1,154 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
 }
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+
+/* Sections */
+
+.top-header {
+    background-color: #7799A6;
+    padding: 1% 10% 1%;
+}
+
+.colored-section {
+  background-color: #7799A6;
+  padding: 7% 15%;
+}
+
+.white-section {
+  background-color: #f9f9f9;
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 1rem;
+}
+
+.navbar-brand {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+
+/* Title */
+
+#title {
+  text-align: left;
+  padding: 3% 15% 3% 15%;
+}
+
+.big-heading {
+  font-size: 5rem;
+}
+
+.tagline {
+  font-size: 1.5rem;
+}
+
+.title-image {
+  width: 60%;
+  position: relative;
+  left: 75px;
+  border-radius: 50%;
+}
+
+.my-intro {
+  position: relative;
+  right: 75px;
+}
+
+
+@media (max-width: 900px) {
+
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+  }
+  .my-intro {
+    position: static;
+  }
+}
+
+/* Resume */
+
+
+.resume-header {
+  padding: 1rem 0 3rem;
+  text-align: center;
+}
+
+.skill-subhead {
+  color: #7799a6;
+  padding: 7% 0 5%;
+  text-align: left;
+}
+
+i {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+}
+
+.skill-icon {
+  font-size: 1.5rem;
+  padding-right: .5rem;
+  padding-bottom: 2rem;
+}
+
+.accordion {
+  padding-top: 3%;
+}
+
+.btn-link {
+  color: #7799a6;
+  font-size: 1.5rem;
+}
+
+/* Contact */
+
+#contact {
+  text-align:center;
+}
+
+.contact-icon {
+  font-size: 3rem;
+  padding: 0 15% 0 15%;
+  color: #B2BFAE;
+}
+
+.contact-icons {
+  padding: 2% 30% 5% 30%;
+}
+
+.contact-icon:hover {
+  color: #242526;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: .75rem;
+  text-align: center;
+  padding: 1% 15% 1%;
+}
